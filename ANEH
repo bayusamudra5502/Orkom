@@ -1,0 +1,40 @@
+(signed)
+a < b
+a >= b
+
+(unsigned)
+a <= b
+a != b
+
+----
+3.14 233
+3.18
+
+short test(short x, short y, short z){
+  short val = y+z-x
+  
+  if(z > 5){
+    if(y <= 2){
+    	val = x/y
+    }else{
+    	val = x/z
+    }	
+  }else if(z < 3)
+     val = z / y;
+  
+  return val
+}
+
+--- 3.26
+
+long loop_while2(unsigned short x){
+  short val = 1;
+  
+  while(x){
+  	val ^= a
+  	x >>= 1
+  }
+  
+  
+  return val & 0;
+}
