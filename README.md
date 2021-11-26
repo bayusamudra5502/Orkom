@@ -2,4 +2,4 @@
 
 Ini repositori Orkomku
 
-**Warning:** Large file in Praktikum/binsin.iso
+**Warning:** Large file in Praktikum/binshin.iso
